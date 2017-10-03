@@ -1,13 +1,13 @@
 # Site settings
-title: Comical Jekyll Theme
+title: Classy Comic
 email: 
 
-keywords: webcomic, comic
+keywords: webcomic, comic, software, engineer, developer
 description: > # this means to ignore newlines until "baseurl:"
-  A webcomic theme for jekyll.
+  A webcomic.
 
 
-baseurl: https://chrisanthropic.github.io/comical-jekyll-theme
+baseurl: http://pedrocatre.com/classycomic
 url: / #Leave this, change the baseurl.
 
 # Exclude our ruby stuff
@@ -31,10 +31,10 @@ permalink: /:categories/:title/
 
 # Set default header image
 header: yes
-header_sm: images/banner-small.jpg
-header_med: images/banner-med.jpg
-header_large: images/banner-large.jpg
-header_xl: images/banner-xl.jpg
+header_sm: images/banner-small.png
+header_med: images/banner-med.png
+header_large: images/banner-large.png
+header_xl: images/banner-xl.png
 
 ## Thumbnailer taken from https://github.com/chrisanthropic/jekyll-minimagick
 
@@ -47,7 +47,7 @@ mini_magick:
       destination: /images/comics/thumbs
       resize: "182x280^"
 
-#Autogenerate smaller size for small screens       
+#Autogenerate smaller size for small screens
     small:
       source: images/comics/
       destination: /images/comics/small
@@ -55,7 +55,7 @@ mini_magick:
 
 #### SEO Stuff
 # Google Analytics
-google_universal_analytics: 
+google_universal_analytics: UA-96544493-1
 google_universal_analytics_cookiedomain: auto
 
 # Facebook Opengraph

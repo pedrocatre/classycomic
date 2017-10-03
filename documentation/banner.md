@@ -38,10 +38,10 @@ You can set a site-wide default banner image by adding the following to your _co
 
 ```
 header: yes
-header_sm: path/to/banner-sm.jpg
-header_med: path/to/banner-med.jpg
-header_large: path/to/banner-large.jpg
-header_xl: path/to/banner-xl.jpg
+header_sm: path/to/banner-sm.png
+header_med: path/to/banner-med.png
+header_large: path/to/banner-large.png
+header_xl: path/to/banner-xl.png
 ```
 
 **Per Page Banner**
