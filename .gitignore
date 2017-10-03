@@ -4,3 +4,8 @@ _site
 bin
 vendor/ruby
 Gemfile.lock
+
+# Intellij idea project files
+*.iml
+
+.idea/
