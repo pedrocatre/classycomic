@@ -55,7 +55,7 @@ header_xl: images/banner-xl.jpg
 
 #### SEO Stuff
 # Google Analytics
-google_universal_analytics: 
+google_universal_analytics: UA-96544493-1
 google_universal_analytics_cookiedomain: auto
 
 # Facebook Opengraph
