@@ -22,4 +22,4 @@ export LC_ALL=$loc
 
 run with:
 
-bundle exec jekyll serve
+`bundle exec jekyll serve --baseurl '' --watch`
