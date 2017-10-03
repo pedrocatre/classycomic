@@ -42,3 +42,10 @@ Comment in _config.yml the lines
 run with:
 
 `bundle exec jekyll serve --baseurl '' --watch`
+
+## Build
+install the html_compressor
+`gem install html_compressor`
+
+then run build:
+`rake build`
