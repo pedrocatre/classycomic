@@ -1,3 +1,6 @@
+To generate several sizes for the banner, first installÇ
+* `npm install -g grunt-cli`
+
 Install:
 * run `bundle install --binstubs --path=vendor` to install the required dependencies.
 * run `brew install graphicsmagick`
