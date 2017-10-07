@@ -2,6 +2,8 @@ To generate several sizes for the banner, first installÇ
 * `npm install -g grunt-cli`
 
 Install:
+If in intellij exclude _site directory from the searches, it makes the search messy. Like so: https://stackoverflow.com/a/29014849/3094399
+
 * run `bundle install --binstubs --path=vendor` to install the required dependencies.
 * run `brew install graphicsmagick`
 
