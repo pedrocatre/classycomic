@@ -39,19 +39,19 @@ header_xl: images/banner-xl.png
 ## Thumbnailer taken from https://github.com/chrisanthropic/jekyll-minimagick
 
 # Autogenerate thumbs for comics
-#mini_magick:
-#
-##Create Thumbs for the Archive Page
-#    thumbnail:
-#      source: images/comics/
-#      destination: /images/comics/thumbs
-#      resize: "182x280^"
-#
-##Autogenerate smaller size for small screens
-#    small:
-#      source: images/comics/
-#      destination: /images/comics/small
-#      resize: "350x535^"
+mini_magick:
+
+#Create Thumbs for the Archive Page
+    thumbnail:
+      source: images/comics/
+      destination: /images/comics/thumbs
+      resize: "182x280^"
+
+#Autogenerate smaller size for small screens
+    small:
+      source: images/comics/
+      destination: /images/comics/small
+      resize: "350x535^"
 
 #### SEO Stuff
 # Google Analytics

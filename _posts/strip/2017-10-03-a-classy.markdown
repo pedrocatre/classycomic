@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Classy"
+date: 2017-10-06 18:21:45 -0700
+categories: strip
+thumbnail: /images/comics/thumbs/aclassystripbanner.png
+facebook_type: 
+facebook_image: /images/comics/aclassystripbanner.png
+---
+
+{% include figure.html src="aclassystripbanner.png" alt="Lie to continue" %}
