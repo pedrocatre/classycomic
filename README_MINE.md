@@ -26,23 +26,8 @@ export LC_ALL=$loc
 ```
 
 Comment out optimize images while developing, otherwise it is too slow to work.
-Comment in _config.yml the lines
-
-```
-#mini_magick:
-
-##Create Thumbs for the Archive Page
-#    thumbnail:
-#      source: images/comics/
-#      destination: /images/comics/thumbs
-#      resize: "182x280^"
-#
-##Autogenerate smaller size for small screens
-#    small:
-#      source: images/comics/
-#      destination: /images/comics/small
-#      resize: "350x535^"
-```
+Just comment out the code int the .rb files in the _plugins folder. I should not need to do this,
+given there is a caching mechanism, but it does not seem to work.
 
 run with:
 

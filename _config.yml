@@ -31,10 +31,10 @@ permalink: /:categories/:title/
 
 # Set default header image
 header: yes
-header_sm: images/banner-small.png
-header_med: images/banner-med.png
-header_large: images/banner-large.png
-header_xl: images/banner-xl.png
+header_sm: images/banner/banner-small/banner.png
+header_med: images/banner/banner-med/banner.png
+header_large: images/banner/banner-large/banner.png
+header_xl: images/banner/banner-xl/banner.png
 
 ## Thumbnailer taken from https://github.com/chrisanthropic/jekyll-minimagick
 
@@ -52,6 +52,26 @@ mini_magick:
       source: images/comics/
       destination: /images/comics/small
       resize: "350x535^"
+
+    banner-small:
+      source: images/banner/banner-xl2
+      destination: /images/banner/banner-small/
+      resize: "640x100^"
+
+    banner-med:
+      source: images/banner/banner-xl2
+      destination: /images/banner/banner-med/
+      resize: "1024x160^"
+
+    banner-large:
+      source: images/banner/banner-xl2
+      destination: /images/banner/banner-large/
+      resize: "1440x225^"
+
+    banner-xl:
+      source: images/banner/banner-xl2
+      destination: /images/banner/banner-xl/
+      resize: "1920x300^"
 
 #### SEO Stuff
 # Google Analytics
