@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lie To Continue"
-date: 2017-10-05 18:21:45 -0700
+date: 2017-10-08 00:00:00 -0700
 categories: strip
 thumbnail: /images/comics/thumbs/lie-to-continue.png
 facebook_type: 
