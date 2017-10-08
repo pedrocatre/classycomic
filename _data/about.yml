@@ -1,6 +1,6 @@
 - title: "Author"
-  pic: "http://pedrocatre.com/images/pedro_catre.png"
-  info: "This comic is maintained with <3 by Pedro Catré"
+  pic: "/images/classystriplogo.png"
+  info: "This comic is maintained with ❤ by Pedro Catré"
   twitter: "@pcatre"
   web: "http://pedrocatre.com"
 
@@ -10,7 +10,7 @@
 
 - title: "Font"
   pic: "/images/quill.png"
-  info: "We use the font humor-sans.ttf, based on the creator of xkcd Randall Munroe's handwriting."
+  info: "We use the font humor-sans.ttf, based on the creator of xkcd.com Randall Munroe's awesome handwriting."
 
 - title: "Icons"
   pic: "/images/icons.png"

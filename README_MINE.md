@@ -1,4 +1,4 @@
-To generate several sizes for the banner, first installÇ
+To generate several sizes for the banner, first install
 * `npm install -g grunt-cli`
 
 Install:
@@ -31,7 +31,7 @@ given there is a caching mechanism, but it does not seem to work.
 
 run with:
 
-`bundle exec jekyll serve --baseurl '' --watch`
+`rake watch` or `bundle exec jekyll serve --baseurl '' --watch`
 
 ## Build
 install the html_compressor
@@ -39,3 +39,7 @@ install the html_compressor
 
 then run build:
 `rake build`
+
+## Social media
+I followed this tutorial for adding social media links https://superdevresources.com/share-buttons-jekyll/
+there I have examples for adding even more like linkeding.
