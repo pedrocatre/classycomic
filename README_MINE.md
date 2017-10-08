@@ -43,3 +43,6 @@ then run build:
 ## Social media
 I followed this tutorial for adding social media links https://superdevresources.com/share-buttons-jekyll/
 there I have examples for adding even more like linkeding.
+
+## TODO
+add reddit share link: https://icomoon.io/app/#/select
