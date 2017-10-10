@@ -42,7 +42,11 @@ then run build:
 
 ## Social media
 I followed this tutorial for adding social media links https://superdevresources.com/share-buttons-jekyll/
-there I have examples for adding even more like linkeding.
+there I have examples for adding even more like linkedin.
+
+## Unfurl
+
+I followed this tutorial to implementing the unfurling: https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254
 
 ## TODO
 add reddit share link: https://icomoon.io/app/#/select
