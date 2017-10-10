@@ -17,6 +17,6 @@
 <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta property="twitter:description" content="{% if page.description %}{{ page.description | strip_html | condense_spaces | truncate:200}}{% else %}{{ site.description | strip_html | condense_spaces | truncate:200 }}{% endif %}" />
 <meta property="twitter:creator" content="@{% if page.twitter_card_creator %}{{ page.twitter_card_creator }}{% else %}{{ site.twitter_author }}{% endif %}" />
-{% if page.twitter_image %}<meta property="twitter:image:src" content="{{ page.twitter_image }}" />{% else %}<meta property="twitter:image:src" content="{{ site.twitter_image }}" />{% endif %}
+{% if page.twitter_image %}<meta property="twitter:image:src" content="{{ site.baseurl }}{{ page.twitter_image }}" />{% else %}<meta property="twitter:image:src" content="{{ site.baseurl }}{{ site.twitter_image }}" />{% endif %}
 {% else %}
 {% endif %}
