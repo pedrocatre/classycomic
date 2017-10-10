@@ -86,6 +86,7 @@ facebook_page:                        #the URL of your Facebook Page
 facebook_image: /images/classystriplogo.png #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Twitter Cards
+twitter_author: pcatre
 twitter_user: classycostrip
 twitter_card: true
 twitter_image: /images/classystriplogo.png  #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
