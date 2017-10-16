@@ -19,15 +19,15 @@ layout: default
 	    <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-large"><span class="icon-arrow-right"></span></a>
 	  </nav>
 	{% elsif site.posts.last.url != page.url %}
-	  {% if page.previous.url %}      
+	  {% if page.previous.url %}
 	    <nav class="previous-comic">
 	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="icon-arrow-left hide-for-small">Previous</a>
 	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="icon-arrow-left hide-for-large"></a>
 	    </nav>
-	  {% endif %}	
+	  {% endif %}
 	  <nav class="first-comic">
 	    <a href="{{ site.baseurl }}{{ site.posts.last.url }}">First</a>
-	  </nav>   
+	  </nav>
 	  {% if page.next.url %}
 	    <nav class="comic-next">
 	      <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-small">Next<span class="icon-arrow-right"></span></a>
@@ -38,10 +38,10 @@ layout: default
 	      <a href="{{ site.baseurl }}{{ page.categories }}" class="hide-for-small">Archive<span class="icon-arrow-down"></span></a>
 	      <a href="{{ site.baseurl }}{{ page.categories }}" class="hide-for-large"><span class="icon-arrow-down"></span></a>
 	    </nav>
-	  {% endif %}	
-	{% endif %}	
+	  {% endif %}
+	{% endif %}
       </nav>
-      
+
 	  {{ content }}
 
 		{% include share-page.html %}
@@ -56,15 +56,15 @@ layout: default
 	    <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-large"><span class="icon-arrow-right"></span></a>
 	  </nav>
 	{% elsif site.posts.last.url != page.url %}
-	  {% if page.previous.url %}      
+	  {% if page.previous.url %}
 	    <nav class="previous-comic">
 	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="icon-arrow-left hide-for-small">Previous</a>
 	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="icon-arrow-left hide-for-large"></a>
 	    </nav>
-	  {% endif %}	
+	  {% endif %}
 	  <nav class="first-comic">
 	    <a href="{{ site.baseurl }}{{ site.posts.last.url }}">First</a>
-	  </nav>   
+	  </nav>
 	  {% if page.next.url %}
 	    <nav class="comic-next">
 	      <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-small">Next<span class="icon-arrow-right"></span></a>
@@ -75,8 +75,8 @@ layout: default
 	      <a href="{{ site.baseurl }}{{ page.categories }}/" class="hide-for-small">Archive<span class="icon-arrow-down"></span></a>
 	      <a href="{{ site.baseurl }}{{ page.categories }}/" class="hide-for-large"><span class="icon-arrow-down"></span></a>
 	    </nav>
-	  {% endif %}	
-	{% endif %}	
+	  {% endif %}
+	{% endif %}
       </nav>
     </article>
   </div>
