@@ -10,4 +10,4 @@ facebook_image: /images/comics/web-accessibility.png
 twitter_image: /images/comics/web-accessibility.png
 ---
 
-{% include figure.html src="web-accessibility.png" alt="Web Accessibility" %}
+{% include figure.html src="web-accessibility.png" alt="I've become a good designer since you went blind." %}
