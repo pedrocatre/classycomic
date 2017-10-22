@@ -10,4 +10,4 @@ facebook_image: /images/comics/planned-parenthood.png
 twitter_image: /images/comics/planned-parenthood.png
 ---
 
-{% include figure.html src="planned-parenthood.png" alt="Plan C: Celibacy" %}
+{% include figure.html src="planned-parenthood.png" alt="Planned Parenthood" %}
