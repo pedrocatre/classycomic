@@ -31,6 +31,7 @@ sidebar: true
 
 	{% for post in site.posts limit:1 %}
 
+		<h1 class="comic-title">{{ post.title }}</h1>
 	  {{ post.content }}
 		{% include share-page.html %}
 
