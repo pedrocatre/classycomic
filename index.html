@@ -33,7 +33,7 @@ sidebar: true
 
 		<h1 class="comic-title">{{ post.title }}</h1>
 	  {{ post.content }}
-		{% include share-page.html %}
+		{% include share-page.html title=post.title url=post.url %}
 
 
 		{% endfor %}
