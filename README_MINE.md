@@ -37,6 +37,10 @@ run with:
 install the html_compressor
 `gem install html_compressor`
 
+you need to run `rake watch` before you build since there are steps needed which are not included in `rake build`.
+So run:
+`rake watch`
+
 then run build:
 `rake build`
 
