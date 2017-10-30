@@ -7,7 +7,7 @@ categories: strip
 thumbnail: /images/comics/thumbs/planned-parenthood-part-2.png
 facebook_type: 
 facebook_image: /images/comics/planned-parenthood-part-2.png
-twitter_image: /images/comics/thumbs/planned-parenthood-part-2.png
+twitter_image: /images/comics/planned-parenthood-part-2.png
 ---
 
 {% include figure.html src="planned-parenthood-part-2.png" alt="Plan C: Abstinence" %}
