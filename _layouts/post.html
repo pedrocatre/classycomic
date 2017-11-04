@@ -80,6 +80,7 @@ layout: default
 	{% endif %}
       </nav>
     </article>
+		{% include comments.html title=page.title id=page.id %}
   </div>
   {% if page.sidebar == "true" %}
     {% include asides/recent_posts.html %}

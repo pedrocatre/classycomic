@@ -53,6 +53,9 @@ sidebar: true
 	</nav>
       </nav>
   </article>
+		{% for post in site.posts limit:1 %}
+			{% include comments.html title=post.title id=post.id %}
+		{% endfor %}
   </div>
   {% if page.sidebar == "true" %}
     {% include asides/recent_posts.html %}
