@@ -14,8 +14,8 @@ sidebar: true
       <nav class="comic-nav">
 	<nav class="previous-comic">
 	  {% for post in site.posts limit:1 offset:1 %}
-	    <a href="{{ site.baseurl }}{{ post.url }}" class="icon-arrow-left hide-for-small">Previous</a>
-	    <a href="{{ site.baseurl }}{{ post.url }}" class="icon-arrow-left hide-for-large"></a>
+	    <a href="{{ site.baseurl }}{{ post.url }}" class="hide-for-small"><span class="icon-arrow-left"></span>Previous</a>
+	    <a href="{{ site.baseurl }}{{ post.url }}" class="hide-for-large"><span class="icon-arrow-left"></span></a>
 	  {% endfor %}
 	</nav>
 	<nav class="first-comic">
@@ -40,8 +40,8 @@ sidebar: true
       <nav class="comic-nav">
 	<nav class="previous-comic">
 	  {% for post in site.posts limit:1 offset:1 %}
-	    <a href="{{ site.baseurl }}{{ post.url }}" class="icon-arrow-left hide-for-small">Previous</a>
-	    <a href="{{ site.baseurl }}{{ post.url }}" class="icon-arrow-left hide-for-large"></a>
+	    <a href="{{ site.baseurl }}{{ post.url }}" class="hide-for-small"><span class="icon-arrow-left">Previous</span></a>
+	    <a href="{{ site.baseurl }}{{ post.url }}" class="hide-for-large"><span class="icon-arrow-left"></span></a>
 	  {% endfor %}
 	</nav>
 	<nav class="first-comic">
