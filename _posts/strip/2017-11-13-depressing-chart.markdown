@@ -10,4 +10,4 @@ facebook_image: /images/comics/depressing-chart.png
 twitter_image: /images/comics/depressing-chart.png
 ---
 
-{% include figure.html src="depressing-chart.png" alt="Depressing test result trend." %}
+{% include figure.html src="depressing-chart.png" alt="Made from real data." %}
