@@ -11,6 +11,19 @@
     </main>
       {% include footer.html %}
   </body>
+  <script>
+
+      $(document).ready(function() {
+          var $extraStripBtn = $('.extra-strip-btn');
+          $extraStripBtn.click(function() {
+              $extraStripBtn.hide();
+              var $extraStrip = $('.extra-strip');
+              $extraStrip.show();
+
+              return false;
+          });
+      });
+  </script>
   <script>window.twttr = (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0],
           t = window.twttr || {};

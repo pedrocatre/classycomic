@@ -2,10 +2,10 @@
 
 <figure>
   {% if page.next.url %}
-    <a href="{{ site.baseurl }}{{ page.next.url }}">
-      <img src="{{ site.baseurl }}/images/comics/{{ include.src }}" srcset="{{ site.baseurl }}/images/comics/small/{{ include.src }} 320w, {{ site.baseurl }}/images/comics/{{ include.src }} 1025w" sizes="(max-width: 2000px) 1000px" alt="{{ include.alt }}" title="{{ include.alt }}" class="center">
+    <a style="{{ include.style }}" href="{{ site.baseurl }}{{ page.next.url }}">
+      <img src="{{ site.baseurl }}/images/comics/{{ include.src }}" srcset="{{ site.baseurl }}/images/comics/small/{{ include.src }} 320w, {{ site.baseurl }}/images/comics/{{ include.src }} 1025w" sizes="(max-width: 2000px) 1000px" alt="{{ include.alt }}" title="{{ include.alt }}" class="center {{ include.class }}">
     </a>
   {% else %}
-       <img src="{{ site.baseurl }}/images/comics/{{ include.src }}" srcset="{{ site.baseurl }}/images/comics/small/{{ include.src }} 320w, {{ site.baseurl }}/images/comics/{{ include.src }} 1025w" sizes="(max-width: 2000px) 1000px" alt="{{ include.alt }}" title="{{ include.alt }}" class="center">
+       <img style="{{ include.style }}" src="{{ site.baseurl }}/images/comics/{{ include.src }}" srcset="{{ site.baseurl }}/images/comics/small/{{ include.src }} 320w, {{ site.baseurl }}/images/comics/{{ include.src }} 1025w" sizes="(max-width: 2000px) 1000px" alt="{{ include.alt }}" title="{{ include.alt }}" class="center {{ include.class }}">
   {% endif %}
 </figure>

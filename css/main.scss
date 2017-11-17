@@ -4,6 +4,14 @@
 
 @charset "utf-8";
 
+@font-face {
+  font-family: "human";
+  src: url('/fonts/humor-sans.ttf') format("truetype");
+}
+a.customfont {
+  font-family: "human", Verdana, Tahoma;
+}
+
 // Variables
 @import "variables";
 
@@ -31,3 +39,34 @@
 
 
 // Misc.
+
+.extra-strip-btn-wrapper {
+  text-align: center;
+}
+
+.button-wrap-inner {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff !important;
+  font-size: 25px;
+  background: #e76b66;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #ffffff !important;
+  background: #e0403b;
+  background-image: -webkit-linear-gradient(top, #e0403b, #e0403b);
+  background-image: -moz-linear-gradient(top, #e0403b, #e0403b);
+  background-image: -ms-linear-gradient(top, #e0403b, #e0403b);
+  background-image: -o-linear-gradient(top, #e0403b, #e0403b);
+  background-image: linear-gradient(to bottom, #e0403b, #e0403b);
+  text-decoration: none;
+}
