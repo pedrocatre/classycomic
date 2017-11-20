@@ -15,11 +15,22 @@
 
       $(document).ready(function() {
           var $extraStripBtn = $('.extra-strip-btn');
+
+          function sendExtraComicEventToAnalytics() {
+              ga('send', {
+                  hitType: 'event',
+                  eventCategory: 'Comics',
+                  eventAction: 'openExtra',
+                  eventLabel: 'Extra Panel'
+              });
+          }
+
           $extraStripBtn.click(function() {
               $extraStripBtn.hide();
               var $extraStrip = $('.extra-strip');
               $extraStrip.show();
 
+              sendExtraComicEventToAnalytics();
               return false;
           });
       });
