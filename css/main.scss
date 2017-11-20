@@ -8,7 +8,13 @@
   font-family: "human";
   src: url('/fonts/humor-sans.ttf') format("truetype");
 }
-share-page.customfont, a.customfont {
+.customfont, a.customfont {
+  font-family: "human", Verdana, Tahoma;
+}
+
+.follow-us {
+  font-size: 25px;
+  color: rgba(51, 51, 51, 0.8);
   font-family: "human", Verdana, Tahoma;
 }
 
