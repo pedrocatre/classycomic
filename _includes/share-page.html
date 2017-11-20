@@ -1,11 +1,15 @@
-<div class="share-page">
-    <!--<a href="http://www.reddit.com/submit?url={{ site.baseurl }}{{ include.url }}&title={{ include.title }}" rel="nofollow" target="_blank" title="Share on Reddit"> <img src="//www.redditstatic.com/spreddit5.gif" alt="submit to reddit" border="0" /> </a>-->
-    <!--<a href="http://www.reddit.com/submit?url={{ site.baseurl }}{{ include.url }}&title={{ include.title }}" rel="nofollow" target="_blank" title="Share on Reddit"><span class="icon-reddit socials"></span></a>-->
-    <a href="https://twitter.com/intent/tweet?text={{ include.title }}&url={{ site.baseurl }}{{ include.url }}&via={{ site.twitter_user }}&related={{ site.twitter_user }}" rel="nofollow" target="_blank" title="Share on Twitter"><span class="icon-twitter socials"></span></a>
-    <!--<a class="twitter-share-button"-->
-       <!--href="https://twitter.com/intent/tweet?text={{ include.title }}&url={{ site.baseurl }}{{ include.url }}&via={{ site.twitter_user }}&related={{ site.twitter_user }}" rel="nofollow" target="_blank" title="Share on Twitter">-->
-        <!--Tweet</a>-->
-    <!--<div class="fb-share-button" data-href="{{ site.baseurl }}{{ include.url }}" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>-->
-    <a href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ include.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><span class="icon-facebook socials"></span></a>
-    <a href="https://plus.google.com/share?url={{ site.baseurl }}{{ include.url }}" rel="nofollow" target="_blank" title="Share on Google+"><span class="icon-googleplus socials"></span></a>
+<div class="share-page customfont">
+    <p>
+        <!--<a href="https://twitter.com/intent/tweet?text={{ include.title }}&url={{ site.baseurl }}{{ include.url }}&via={{ site.twitter_user }}&related={{ site.twitter_user }}" rel="nofollow" target="_blank" title="Share on Twitter"><span class="icon-twitter socials"></span></a>-->
+        <!--<a href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ include.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><span class="icon-facebook socials"></span></a>-->
+        <!--<a href="https://plus.google.com/share?url={{ site.baseurl }}{{ include.url }}" rel="nofollow" target="_blank" title="Share on Google+"><span class="icon-googleplus socials"></span></a>-->
+
+        twitter.<a href="https://twitter.com/classycostrip" rel="nofollow" target="_blank" title="Follow on Twitter">follow()</a> |
+        twitter.<a href="https://twitter.com/intent/tweet?text={{ include.title }}&url={{ site.baseurl }}{{ include.url }}&via={{ site.twitter_user }}&related={{ site.twitter_user }}" rel="nofollow" target="_blank" title="Share on Twitter">tweet(this)</a> |
+        facebook.<a href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ include.url }}" rel="nofollow" target="_blank" title="Share on Facebook">post(this)</a>
+            <br>
+            reddit.<a href="http://www.reddit.com/submit?url={{ site.baseurl }}{{ include.url }}&title={{ include.title }}" rel="nofollow" target="_blank" title="Share on Reddit">post(this)</a> |
+            google.<a href="https://plus.google.com/share?url={{ site.baseurl }}{{ include.url }}" rel="nofollow" target="_blank" title="Share on Google+">post(this)</a> |
+            RSS.<a href="/atom.xml" rel="nofollow" target="_blank" title="rss">sign()</a>
+    </p>
 </div>
