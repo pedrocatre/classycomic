@@ -13,7 +13,7 @@ twitter_image: /images/comics/ai-on-call-automation.png
 {% include figure.html src="ai-on-call-automation.png" alt="They say on call thought them pain." %}
 
 <div class="extra-strip-btn-wrapper">
-<a class="customfont extra-strip-btn" style="
+<a data-comic-identifier="ai-on-call-automation" class="customfont extra-strip-btn" style="
     text-align: center;
     padding-top: 20px;
     font-size: 24px;" href="">&lt;Click here for a bonus strip!&gt;</a>
