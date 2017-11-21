@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI On Call Automation"
-date: 2017-11-17 01:00:00 -0700
+date: 2017-11-21 01:00:00 -0700
 keywords: on, call, duty, comic, humor, artificial, intelligence
 categories: strip
 thumbnail: /images/comics/thumbs/ai-on-call-automation.png
