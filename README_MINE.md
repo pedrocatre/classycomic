@@ -31,7 +31,7 @@ given there is a caching mechanism, but it does not seem to work.
 
 run with:
 
-`rake watch` or `bundle exec jekyll serve --baseurl '' --watch`
+`` or `bundle exec jekyll serve --baseurl '' --watch`
 
 ## Build
 install the html_compressor

@@ -1,8 +1,8 @@
 - title: "Author"
   pic: "/images/classystriplogo.png"
-  info: "This comic is maintained with ❤ by Pedro Catré"
-  twitter: "@pcatre"
-  web: "http://pedrocatre.com"
+  info: "This comic is maintained with ❤"
+#  twitter: "@pcatre"
+#  web: "http://pedrocatre.com"
 
 - title: "License"
   pic: "/images/quill.png"
